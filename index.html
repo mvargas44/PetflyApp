@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petfly App</title>
+    <script src="./js.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation --> 
+     <header class="row container">
+        <a href="" class="logo"><img src="./img/logo1.png" alt=""></a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#product">Productos</a></li>
+                <li><a href="#service">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#" class="page-btn active">Iniciar Sesión</a></li>
+                <li><a href="#" class="page-btn">Registrarse</a></li>
+            </ul>
+        </nav>
+     </header>
+     <!-- End Navigation -->
+
+    <!-- Hero Section -->
+     <section class="hero">
+        <div class="row flex container">
+            <div class="hero-content">
+               <h1>Petfly App</h1>
+                <p>Nos preocupamos por el bienestar de tu canino, por eso en PetFly encontrarás información útil para su cuidado, recomendaciones personalizadas y muchas sorpresas más pensadas para ti y tu peludo.</p>
+                <a href="" class="page-btn row">
+                    Más información
+                    <svg fill="#ffffff" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" width="15" height="15" viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <polygon fill-rule="evenodd" points="11,38.32 28.609,21 11,3.68 13.72,1 34,21.01 13.72,41 "/> </g>
+
+</svg>
+                </a>
+            </div>
+            <div class="hero-img row"><img src="./img/perrito1.png" alt=""></div>
+        </div>
+     </section>
+     <!-- End Hero Section -->
+
+     <!-- Service -->
+<!-- Service -->
+<section class="service" id="service">
+  <div class="container">
+    <h2><span>Servicios</span></h2>
+
+    <!-- Tarjetas en cuadrícula -->
+    <div class="service-cards">
+      <div class="s-card">
+        <img src="./img/pet.png" alt="">
+        <h3>Tienda</h3>
+      </div>
+      <div class="s-card">
+        <img src="./img/comunidades.png" alt="">
+        <h3>Comunidades</h3>
+      </div>
+      <div class="s-card">
+        <img src="./img/medal.png" alt="">
+        <h3>PetGold</h3>
+      </div>
+      <div class="s-card">
+        <img src="./img/robot.png" alt="">
+        <h3>Chatbot</h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- CORREGIDO: Agregado contenedor -->
+  <div class="container">
+    <div class="flex row">
+      <!-- Imagen al lado izquierdo -->
+      <div class="service-img row">
+        <img src="./img/dogg.png" alt="">
+        <a href="#" class="play row">
+          <svg width="55" height="52" viewBox="0">
+            <path d="M39.2031 25.2192C39.1707"></path>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Texto al lado derecho -->
+      <div class="service-content row">
+        <div>
+          <h2>¡Únete al Club PetGold!</h2>
+          <p>
+            Conviértete en un usuario PetGold y accede a beneficios exclusivos como descuentos en compras mayores a $105.000, un chatbot inteligente que te brinda recetas personalizadas y resuelve tus dudas, y envíos totalmente gratis. Vive la experiencia premium que tu mascota se merece. 🐶✨
+          </p>
+          <a href="" class="page-btn row">
+            ¡Adquirir!
+            <svg fill="#ffffff" version="1.1" baseProfile="tiny" id="Layer_1"
+              xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" width="15" height="15"
+              viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+              <g id="SVGRepo_bgCarrier" stroke-width="0" />
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+              <g id="SVGRepo_iconCarrier">
+                <polygon fill-rule="evenodd"
+                  points="11,38.32 28.609,21 11,3.68 13.72,1 34,21.01 13.72,41 " />
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Service -->
+
+  <!-- About -->
+  <section class="about row flex container" id="about">
+    <div class="about-content">
+      <h2>Sobre <span> Nosotros</span></h2>
+      <h3>¿Sabias que el 70% de dueños no entienden la nutrición canina?</h3>
+      <p>En Petfly queremos cambiar eso.</p>
+      <p>Nuestro propósito es brindar información clara y confiable que promueva una alimentación saludable y adecuada para tu perro. Creamos esta app pensando en su bienestar, porque un canino bien alimentado es un canino feliz.</p>
+      <a href="" class="page-btn row">
+        Explorar más
+        <svg fill="#ffffff" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" width="15" height="15" viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <polygon fill-rule="evenodd" points="11,38.32 28.609,21 11,3.68 13.72,1 34,21.01 13.72,41 "/> </g>
+
+</svg>
+      </a>   
+    </div>
+    <div class="about-img row"><img src="./img/galleta.png"></div>
+  </section>
+  <!-- End About -->
+
+<!-- Product -->
+<section class="product" id="product">
+  <div class="container">
+      <h2>Produc<span>tos</span></h2>
+      <div class="deals row">
+          <h2><span>¡Conoce nuestros</span> productos destacados!</h2>
+          <a href="#" class="page-btn row">
+              Ver más
+              <svg fill="#ffffff" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" width="15" height="15" viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <polygon fill-rule="evenodd" points="11,38.32 28.609,21 11,3.68 13.72,1 34,21.01 13.72,41 "/> </g>
+
+</svg>
+          </a>
+      </div>
+      <div class="product-cards row"> <!-- Añadir clase row aquí para que sea flex -->
+          <div class="p-card">
+              <div class="img row"><img src="./img/armaduradigestiva.png" alt="Armadura Digestiva"></div>
+              <div class="p-content">
+                  <h3>Armadura Digestiva / 120g</h3>
+                  <p>Con el poder natural de las algas kelp como escudo prebiotico y la yucca schidigera para mejorar el olor y firmeza de sus heces, este snack funcional refuerza el sistema digestivo como un verdadero escudo interno.</p>
+                  <a href="#" class="page-btn active">Comprar</a>
+              </div>
+          </div>
+          <div class="p-card">
+              <div class="img row"><img src="./img/patasdetitanio.png" alt="Patas de Titanio"></div>
+              <div class="p-content">
+                  <h3>Patas de Titanio / 120g</h3>
+                  <p>Con condroitina y ácido hialurónico, este snack funcional fortalece huesos y articulaciones para que tu perro se mueva como un verdadero titán. 
+                    El superalimento que impulsa cada salto, carrera y travesura con fuerza de acero.</p>
+                  <a href="#" class="page-btn active">Comprar</a>
+              </div>
+          </div>
+          <div class="p-card">
+              <div class="img row"><img src="./img/superalimento.png" alt="Superalimento"></div>
+              <div class="p-content">
+                  <h3>Superalimento / 10kg</h3>
+                  <p>El Superalimento Petfly aporta proteína de alta digestibilidad, vitaminas, prebióticos naturales y antioxidantes esenciales para fortalecer su sistema inmune, digestivo y muscular.
+                    Cada bocado es un golpe de bienestar.</p>
+                  <a href="#" class="page-btn active">Comprar</a>
+              </div>
+          </div>
+      </div>
+<!-- Product -->
+<section class="product" id="app">
+  <div class="container row flex">
+    <div class="product-content">
+      <h1>Descarga Petfly App</h1>
+      <p>
+        Descubre una tienda con snacks y accesorios, comunidades donde otros dueños comparten sus experiencias, y la suscripción PetGold con recetas personalizadas, envíos gratis y descuentos.
+        ¡Todo lo que tu peludo necesita, en un solo lugar!
+      </p>
+      <a href="" class="page-btn row">
+        Obtener
+        <svg fill="#ffffff" width="15" height="15" viewBox="0 0 42 42" stroke="#ffffff">
+          <polygon fill-rule="evenodd" points="11,38.32 28.609,21 11,3.68 13.72,1 34,21.01 13.72,41 "/>
+        </svg>
+      </a>   
+    </div>
+    <div class="product-img row">
+      <img src="./img/app.png" alt="Petfly App">
+    </div>
+  </div>
+</section>
+<!-- End Product -->
+
+<!-- End Product-->
+
+<!-- Customer -->
+<section class="customer">
+  <div class="container">
+    <h2><span>Clientes</span> felices</h2>
+    <div class="customer-cards">
+      <div class="c-card">
+        <div class="c-img">
+          <img src="./img/doggy1.png" alt="">
+        </div>
+        <div class="c-content">
+          <h3>Gigi y Toby</h3>
+          <p>Los snacks recomendados por la app le fascinan a Toby, y a mí me da tranquilidad saber que son saludables. 
+            ¡PetFly ha sido un verdadero descubrimiento!</p>
+          <div class="rate now">
+            <p>5/5</p>
+          </div>
+        </div>
+      </div>
+      <div class="c-card">
+        <div class="c-img">
+          <img src="./img/doggy2.png" alt="">
+        </div>
+        <div class="c-content">
+          <h3>Jul y Tokyo</h3>
+          <p>Desde que uso PetFly, entiendo mucho mejor lo que Tokyo necesita.
+            Las recetas personalizadas han hecho una gran diferencia en su salud.</p>
+          <div class="rate now">
+            <p>5/5</p>
+          </div>
+        </div>
+      </div>
+      <div class="c-card">
+        <div class="c-img">
+          <img src="./img/doggy3.png" alt="">
+        </div>
+        <div class="c-content">
+          <h3>Rosa y Benji</h3>
+          <p>Benji siempre fue delicado con la comida, pero gracias a PetFly ahora sé cómo alimentarlo bien. 
+            Además, el chatbot me responde todo rapidísimo. ¡Estamos felices!</p>
+          <div class="rate now">
+            <p>5/5</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="" class="page-btn row">
+      Explorar más
+      <svg fill="#ffffff" version="1.1" baseProfile="tiny" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;" xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" width="15" height="15" viewBox="0 0 42 42" xml:space="preserve" stroke="#ffffff">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <polygon fill-rule="evenodd" points="11,38.32 28.609,21 11,3.68 13.72,1 34,21.01 13.72,41 "/> </g>
+
+</svg>
+    </a>   
+  </div>
+</section>
+<!-- End customer -->
+
+<!-- Suscribe -->
+<section class="suscribe" id="contact">
+  <div class="suscribe-content row container">
+    <div>
+      <h2><span>¡Regístrate y</span> recibe una sorpresa especial para tu peludo!</h2>
+      <form action="" class="row form-container">
+        <div class="input row">
+          <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+          <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#039389">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4C21.6569 4 23 5.34315 23 7V17C23 18.6569 21.6569 20 20 20H4C2.34315 20 1 18.6569 1 17V7C1 5.34315 2.34315 4 4 4H20ZM19.2529 6H4.74718L11.3804 11.2367C11.7437 11.5236 12.2563 11.5236 12.6197 11.2367L19.2529 6ZM3 7.1688V17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17V7.16882L13.8589 12.8065C12.769 13.667 11.231 13.667 10.1411 12.8065L3 7.1688Z" fill="#039389"/> </g>
+
+</svg>
+
+          <input type="email" placeholder="Tu correo electrónico..." required>
+        </div>
+        <button type="submit" class="page-btn row">
+          Submit now
+          <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4C21.6569 4 23 5.34315 23 7V17C23 18.6569 21.6569 20 20 20H4C2.34315 20 1 18.6569 1 17V7C1 5.34315 2.34315 4 4 4H20ZM19.2529 6H4.74718L11.3804 11.2367C11.7437 11.5236 12.2563 11.5236 12.6197 11.2367L19.2529 6ZM3 7.1688V17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17V7.16882L13.8589 12.8065C12.769 13.667 11.231 13.667 10.1411 12.8065L3 7.1688Z" fill="#ffffff"/> </g>
+
+</svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- End suscribe -->
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+  <div class="footer row container">
+    <!-- Redes Sociales -->
+    <div class="social">
+      <h4>¡Síguenos en nuestras redes sociales!</h4>
+      <div class="media-links row">
+        <a href="https://www.instagram.com/petflypro/" class="row" target="_blank" rel="noopener">
+          <!-- Icono de Instagram (Blanco) -->
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+<path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+</svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Contáctanos -->
+    <div class="contact">
+      <h4>Contáctanos.</h4>
+      <a href="tel:+573015299745">Cel: +57 3015299745</a>
+      <p>Cra. 52 #72 114, Nte. Centro Histórico, Barranquilla, Atlántico.</p>
+    </div>
+  </div>
+
+  <!-- Línea azul -->
+  <hr class="divider">
+
+  <!-- Pie de página inferior -->
+  <div class="links row container">
+    <p class="copy-right">&copy; 2025. Petfly.</p>
+    <ul class="row">
+      <li><a href="#about">Sobre nosotros</a></li>
+      <li><a href="#product">Productos</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </div>
+</footer>
+<!-- End footer -->
+<!-- End footer -->
+</body>
+
+</html>
